@@ -1,37 +1,32 @@
-# Lavalink on Replit
-[![Run on Repl.it](https://repl.it/badge/github/DarrenOfficial/lavalink-replit)](https://repl.it/github/DarrenOfficial/lavalink-replit)
+# Lavalink on Linux / Unix
 
 
-How to install and run lavalink on replit.
-Full tutorial on how to set it up is on my [website, click me](https://darrennathanael.com/community/threads/how-to-setup-make-lavalink-on-repl-it.82/)
 
-## Installation
+How to install and run lavalink on any linux distro.
 
-Fork this github repository. then create a new replit project.
+### Installation
 
-or [click me](https://replit.com/github/DarrenOfficial/lavalink-replit) to install it automatically.
+* Install nodejs 12 or higher.
+* Install Java 11 or 13 or 16 
+> do ‘java -version‘ to check your java version
 
-
-### Initialisation
-## only needed when the run button doesnt work.
+## install dependencies
 ```bash
-chmod +x start.sh
+npm i
 ```
 
-## Usage
+## start
 
 ```bash
-./start.sh
+node .
 ```
 
 - - -
 
 ## Note & such
-The default port to connect is `443` and the default password is `maybeiwasboring`
+The default port to connect is `2333` and the default password is `maybeiwasboring`
 
-
-You can’t change the lavalink port! it will default to 443 due to how replit work.
-
+You can change the password and/or port in the ‘application.yml‘
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
