@@ -1,4 +1,4 @@
-# Lavalink on Linux / Unix
+# Lavalink on any operating system.
 
 
 
@@ -39,6 +39,8 @@ You can change the password and/or port in the ‘application.yml‘
 - [x] Debian/Ubuntu
 - [x] Arch
 - [x] Mint
+- [x] Rasberry PI 4
+- [x] [AmogOS (sus)](https://github.com/jostroOS/AmogOS)
 
 
 ## License
